@@ -1,0 +1,37 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "expo": "^31.0.2",
+    "express": "^4.16.4",
+    "react": "^16.0.0",
+    "react-native": "^0.57.8",
+    "react-native-reanimated": "^1.0.0-alpha.11",
+    "react-native-simple-gauge": "^0.1.11",
+    "react-native-socketio": "^0.3.0",
+    "socket.io": "^2.2.0",
+    "socket.io-client": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel-preset-expo": "^5.0.0",
+    "metro-react-native-babel-preset": "^0.51.1",
+    "react-devtools-core": "^3.4.2",
+    "schedule": "^0.4.0"
+  },
+  "private": true,
+  "name": "first",
+  "version": "1.0.0",
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "rnpm": {
+    "assets": [
+      "assets/fonts/OrbitronBlack"
+    ]
+  }
+}
